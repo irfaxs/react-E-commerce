@@ -1,0 +1,11 @@
+.home_banner{
+    height: 400px;
+}
+
+.carousel{
+    height: 100%;
+}
+
+.productContainer{
+    grid-template-columns: 1fr 1fr 1fr;
+}

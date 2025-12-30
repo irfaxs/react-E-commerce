@@ -9,6 +9,9 @@ import Footer from './components/Footer/Footer'
 import HomePage from './components/pages/Home/HomePage'
 import AboutPage from './components/pages/About/AboutPage'
 import ContactPage from './components/pages/Contact/ContactPage'
+
+import { Outlet } from 'react-router-dom'
+
 function App() {
  
 
@@ -18,9 +21,8 @@ function App() {
 <Navbar/>
      </header>
      <main>
-    <AboutPage />
-    <HomePage />
-    <ContactPage />
+    <Outlet/>
+    
      </main>
      <footer>
     <Footer />
